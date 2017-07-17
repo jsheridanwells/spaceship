@@ -1,0 +1,57 @@
+body {
+	background-color: darkslategray;
+}
+
+
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 70px solid firebrick;
+	z-index: 10;
+	position: fixed;
+	top: 41%;
+	left: 285px;
+}
+
+#trapezoid {
+	border-bottom: 100px solid firebrick;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	height: 0;
+	width: 100px;
+	z-index: 10;
+	position: fixed;
+	top: 50%;
+	left: 200px;
+	transform: rotate(180deg);
+}
+
+#triangle-down1 {
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 33px solid darkorange;
+	z-index: 11;
+	position: fixed;
+	top: 64.3%;
+	left: 328px;
+	transform: rotate(180deg);
+}
+
+#triangle-down2 {
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 33px solid darkorange;
+	z-index: 11;
+	position: fixed;
+	top: 64.3%;
+	left: 285px;
+	transform: rotate(180deg);
+}
+
+
